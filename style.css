@@ -1,6 +1,7 @@
 body {
-    background: lightblue;
+    background: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
 }
 
 h1 {
@@ -14,18 +15,24 @@ h2 {
 }
 
 
-.container {
+.wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    
+    margin-top: 100px;
+    background-color:black;
 }
 
-.gridwrap {
-    border: 3px solid red;
+.container {
+    background-color: blue;
+}
+
+#gridwrap {
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%; 
+    border: 50px solid blue;
+    border-top: 15px solid blue;
     align-content: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .circle {
@@ -39,8 +46,8 @@ h2 {
     background: red;
 }
 
-.black {
-    background: black;
+.yellow {
+    background: yellow;
 }
 
 
@@ -61,5 +68,13 @@ h2 {
     width: 100px;
     padding: 1px;
     padding-bottom: -5px;
+    background-color: black;
+}
+
+.buttonContainer {
+    border-radius: 35%;
+    border: 10px solid blue;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
 }
 

@@ -129,13 +129,13 @@ function click(event){
                 if (currentCell.innerHTML ==='') {
                     let button = document.createElement('div');
 
-                    //swtiching each turn between red and black
+                    //swtiching each turn between red and yellow
                     if (currentPlayer === player1) {
                         currentPlayer = player2; 
                         button.classList.add('red');
                     } else {
                         currentPlayer = player1; 
-                        button.classList.add('black');
+                        button.classList.add('yellow');
                     }
                     
                     button.classList.add('circle');
