@@ -6,7 +6,7 @@ var gridArray = [
     [0,0,0,0,0,0,0],
     [0,0,0,0,0,0,0]
 ]
-
+ 
 
 const player1 = 1;
 const player2 = 2;
@@ -117,7 +117,6 @@ for(let y = 2; y < gridArray.length; y++){
     }
   }
 }
-console.log(gridArray);
 
 //what happens when clicked
 function click(event){
@@ -133,9 +132,17 @@ function click(event){
                     if (currentPlayer === player1) {
                         currentPlayer = player2; 
                         button.classList.add('red');
+                        button.classList.add('animated');
+                        button.classList.add('fadeInDownBig');
+
+
                     } else {
                         currentPlayer = player1; 
                         button.classList.add('yellow');
+                        button.classList.add('animated');
+                        button.classList.add('fadeInDownBig');
+
+
                     }
                     
                     button.classList.add('circle');
