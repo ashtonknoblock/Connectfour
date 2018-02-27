@@ -24,6 +24,8 @@ h2 {
 
 .container {
     background-color: blue;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%; 
 }
 
 #gridwrap {
